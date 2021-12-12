@@ -1,7 +1,8 @@
+includes:
+    - ./vendor/nunomaduro/larastan/extension.neon
+
 parameters:
     level: 9
     paths:
         - src
-        - config
-        - database
     tmpDir: build/phpstan
